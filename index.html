@@ -75,64 +75,151 @@
   </footer>
 </body>
 </html>
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: #f5f9ff;
+  color: #111;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mob13r Digital Media</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <img src="logo.jpg" alt="Mob13r Logo" class="logo" />
-      <nav id="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-    </div>
-  </header>
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 12px 60px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
-  <section id="home" class="hero">
-    <h1>Mob13r Digital Media</h1>
-    <p>Brand Builders & Business Creation Agency</p>
-    <a href="#contact" class="btn">Get Started</a>
-  </section>
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  <section id="about" class="about">
-    <h2>About Us</h2>
-    <p>Mob13r Digital Media is a creative agency focused on brand building, marketing, and digital growth.</p>
-  </section>
+.logo {
+  height: 60px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.25));
+}
 
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Brand Strategy & Consulting</li>
-      <li>Digital Marketing (SEO, Ads, Social Media)</li>
-      <li>Creative Design & Content Production</li>
-      <li>Web Development & Tech Solutions</li>
-    </ul>
-  </section>
+nav {
+  display: flex;
+  gap: 20px;
+}
 
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>Email: info@mob13r.com | Phone: +91-9876543210</p>
-  </section>
+nav a {
+  text-decoration: none;
+  color: #0a0a0a;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
 
-  <footer>
-    <p>© 2019 Mob13r Digital Media. All Rights Reserved.</p>
-  </footer>
+nav a:hover {
+  color: #0073ff;
+}
 
-  <script>
-    function toggleMenu() {
-      document.getElementById("nav").classList.toggle("active");
-    }
-  </script>
-</body>
-</html>
+/* Menu Button for Mobile */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, #eaf2ff, #d8e8ff);
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #0047b3;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0047b3;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066ff;
+}
+
+section {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background-color: #eaf2ff;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #ffffff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+}
