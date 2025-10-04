@@ -51,14 +51,18 @@ h1, h2, h3 {
   gap: 2rem;
 }
 
+/* ✨ Updated link style */
 .nav-links a {
   text-decoration: none;
-  color: #333;
-  font-weight: 600;
+  color: #800000; /* maroon red */
+  font-weight: 700;
+  font-size: 1.2rem; /* slightly larger */
+  letter-spacing: 0.5px;
   position: relative;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
+/* underline animation */
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -66,12 +70,13 @@ h1, h2, h3 {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #800000;
+  background: linear-gradient(90deg, #d4af37, #800000);
   transition: width 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #800000;
+  color: #d4af37; /* golden hover */
+  transform: scale(1.05);
 }
 
 .nav-links a:hover::after {
@@ -244,3 +249,4 @@ footer {
   color: #f1e6e6;
   padding: 30px 10px;
   font-size
+
