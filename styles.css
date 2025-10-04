@@ -1,0 +1,116 @@
+/* Global */
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f7ff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e3f0ff;
+  padding: 10px 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom right, #e8f1ff, #d6e8ff);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  color: #003399;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056cc;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #003399;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about p, .contact p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+}
+
+.services li {
+  background: #eaf3ff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background: #e3f0ff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #333;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
