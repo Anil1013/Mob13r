@@ -11,7 +11,7 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #EAF6FF; /* Soft Frost Blue */
   color: #111;
   padding: 20px 0;
   text-align: center;
@@ -99,17 +99,19 @@ section h2 {
   margin: 0 auto;
 }
 
+/* ---------- Service Cards ---------- */
 .service-card {
-  background-color: white;
+  background: linear-gradient(180deg, #FFF0F5 0%, #FFDDEE 100%);
   border-radius: 15px;
   padding: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 25px rgba(255, 102, 178, 0.4);
+  background: linear-gradient(180deg, #FFDDEE 0%, #FFF0F5 100%);
 }
 
 .service-card h3 {
@@ -124,7 +126,7 @@ section h2 {
 
 /* ---------- Footer ---------- */
 footer {
-  background-color: #ffffff;
+  background-color: #C7E9FF; /* Pastel Blue Footer */
   color: #111;
   text-align: center;
   padding: 20px 0;
