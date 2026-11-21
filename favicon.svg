@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#713044"/><stop offset="1" stop-color="#261019"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0c895"/><stop offset="1" stop-color="#b18a4e"/></linearGradient></defs>
-<rect width="64" height="64" rx="17" fill="url(#bg)"/>
-<path d="M8 47 17 19 29 31 41 19 47 25 57 9 53 31 41 44 29 34 19 51Z" fill="url(#a)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#713044"/><stop offset="1" stop-color="#261019"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f2dfb4"/><stop offset=".55" stop-color="#c6a56b"/><stop offset="1" stop-color="#946c35"/></linearGradient></defs>
+<rect x="3" y="3" width="90" height="90" rx="25" fill="url(#bg)"/>
+<path d="M19 72 29 25 48 47 67 25 77 72 63 72 59 47 48 59 37 47 33 72Z" fill="#fff8ee"/>
+<path d="M16 67C36 54 56 39 80 18" fill="none" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+<path d="m79 9 3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1Z" fill="url(#gold)"/>
 </svg>
