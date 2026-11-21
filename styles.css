@@ -389,3 +389,69 @@ body{
 .site-footer{background:#0b1429}
 .footer-brand span{color:#20bba9}
 @media(max-width:700px){.nav-links{background:rgba(247,249,252,.97)}}
+
+
+/* Refined Mob13r identity: deep burgundy, champagne gold and warm ivory */
+:root{
+  --maroon:#4b1828;
+  --maroon-dark:#261019;
+  --gold:#c6a56b;
+  --ink:#2b2022;
+  --muted:#76696a;
+  --paper:#f8f5f0;
+  --line:rgba(75,24,40,.12);
+  --glass:rgba(255,255,255,.62);
+  --glass-strong:rgba(255,255,255,.78);
+}
+body{
+  background:
+    radial-gradient(ellipse at 8% 18%,rgba(198,165,107,.12),transparent 32rem),
+    radial-gradient(ellipse at 92% 46%,rgba(111,49,66,.08),transparent 34rem),
+    linear-gradient(135deg,#fbf8f3 0%,#f2ece7 52%,#faf7f1 100%);
+}
+.site-header{background:rgba(251,248,243,.76);border-bottom-color:rgba(198,165,107,.24)}
+.nav-links a:hover,.nav-links a:focus-visible{color:#a98245}
+.nav-links .nav-contact{background:#4b1828;color:#fff}
+.nav-links .nav-contact:hover{background:#c6a56b;color:#261019}
+.menu-toggle span{background:#4b1828}
+.hero{
+  background:
+    radial-gradient(circle at 78% 28%,rgba(198,165,107,.22),transparent 24rem),
+    radial-gradient(circle at 12% 90%,rgba(141,75,88,.20),transparent 28rem),
+    linear-gradient(125deg,#261019 0%,#4b1828 58%,#663342 100%);
+}
+.eyebrow,.section-kicker,.card-index,.process-grid article>span,.principle-grid b{color:#d6b77e}
+.hero h1 em,.section h2 em,.ecosystem-content h2 em{color:#d6b77e}
+.hero-mark{border-color:rgba(214,183,126,.32);color:rgba(214,183,126,.2)}
+.hero-mark:before,.hero-mark:after{border-color:rgba(214,183,126,.2)}
+.hero-mark i{background:#c6a56b}
+.button-gold{background:#c6a56b;color:#261019}
+.button-gold:hover{background:#dfc797;color:#261019}
+.section h2,.contact-panel h2{color:#4b1828}
+.capabilities,.approach{
+  background:linear-gradient(135deg,rgba(255,255,255,.68),rgba(239,231,224,.72));
+  border-color:rgba(198,165,107,.16);
+}
+.capability-card{box-shadow:0 12px 34px rgba(55,24,31,.055),inset 0 1px 0 rgba(255,255,255,.92)}
+.capability-card:hover{box-shadow:0 22px 48px rgba(55,24,31,.11),inset 0 1px 0 rgba(255,255,255,.95)}
+.card-symbol,.capability-card h3,.structure-list h3,.process-grid h3,.ecosystem-tags span{color:#4b1828}
+.card-foot,.structure-list article>b{color:#988675}
+.structure-list article>span{color:#b08a50}
+.process-grid article{border-top-color:#c6a56b}
+.principles{
+  background:
+    radial-gradient(circle at 85% 15%,rgba(198,165,107,.17),transparent 24rem),
+    linear-gradient(120deg,#261019,#4b1828 75%,#60303c);
+}
+.principle-grid>div{border-color:rgba(214,183,126,.18);background:rgba(255,255,255,.055)}
+.contact-section{background:linear-gradient(135deg,rgba(255,255,255,.42),rgba(239,231,224,.72))}
+.contact-panel{
+  background:
+    radial-gradient(circle at 88% 15%,rgba(198,165,107,.22),transparent 18rem),
+    linear-gradient(125deg,rgba(38,16,25,.98),rgba(75,24,40,.96) 65%,rgba(102,51,66,.95));
+  box-shadow:0 28px 70px rgba(55,24,31,.16),inset 0 1px 0 rgba(255,255,255,.18);
+}
+.contact-panel:after{border-color:rgba(214,183,126,.34);box-shadow:0 0 0 25px rgba(214,183,126,.045),0 0 0 55px rgba(214,183,126,.025)}
+.site-footer{background:#261019}
+.footer-brand span{color:#c6a56b}
+@media(max-width:700px){.nav-links{background:rgba(251,248,243,.98)}}
