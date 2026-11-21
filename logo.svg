@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 156" role="img" aria-labelledby="title desc">
 <title id="title">Mob13r Digital Media</title>
-<desc id="desc">Modern midnight navy and electric teal Mob13r logo with an upward growth arrow.</desc>
+<desc id="desc">Elegant burgundy and champagne gold Mob13r wordmark with a rising geometric monogram.</desc>
 <defs>
- <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263c70"/><stop offset="1" stop-color="#101a35"/></linearGradient>
- <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8af0df"/><stop offset="1" stop-color="#24bdae"/></linearGradient>
+ <linearGradient id="burgundy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#713044"/><stop offset="1" stop-color="#35121f"/></linearGradient>
+ <linearGradient id="champagne" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0c895"/><stop offset="1" stop-color="#b18a4e"/></linearGradient>
 </defs>
-<g transform="translate(8 12)">
- <path d="M8 105 28 105 46 48 76 77 106 47 128 64 149 40 136 27 106 47 76 17 43 49 30 20Z" fill="url(#navy)"/>
- <path d="M52 105 79 77 101 96 127 69 149 48 166 12 184 0 176 35 154 75 128 101 101 122 79 102 65 121Z" fill="url(#teal)"/>
- <path d="M166 28 184 0 180 39Z" fill="#24bdae"/>
+<g transform="translate(8 13)">
+ <path d="M8 111 29 111 48 49 78 79 108 49 130 67 153 42 139 28 108 49 78 18 45 51 31 22Z" fill="url(#burgundy)"/>
+ <path d="M52 111 80 79 103 99 130 72 153 49 170 14 189 2 180 39 157 78 130 105 103 126 80 105 65 125Z" fill="url(#champagne)"/>
+ <path d="M170 30 189 2 185 41Z" fill="#b18a4e"/>
 </g>
 <g font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="75" letter-spacing="1">
- <text x="218" y="91" fill="#14213f">MOB</text><text x="390" y="91" fill="#20bba9">13</text><text x="486" y="91" fill="#14213f">R</text>
+ <text x="218" y="91" fill="#35121f">MOB</text><text x="390" y="91" fill="#b18a4e">13</text><text x="486" y="91" fill="#35121f">R</text>
 </g>
-<path d="M220 111H574" stroke="#36d6c4" stroke-width="2.5" opacity=".95"/>
-<text x="221" y="139" fill="#344563" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="8">DIGITAL MEDIA</text>
+<path d="M220 111H574" stroke="#c6a56b" stroke-width="2.5" opacity=".95"/>
+<text x="221" y="139" fill="#655057" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="8">DIGITAL MEDIA</text>
 </svg>
