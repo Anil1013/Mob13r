@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mob13r.com/sitemap.xml
