@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
-  <title id="title">Mob13r Digital Media</title>
-  <desc id="desc">Maroon and gold geometric upward arrow mark with Mob13r Digital Media wordmark.</desc>
-  <defs>
-    <linearGradient id="maroon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#741728"/><stop offset="1" stop-color="#350812"/></linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2bd70"/><stop offset="1" stop-color="#b8862e"/></linearGradient>
-  </defs>
-  <g transform="translate(10 12)">
-    <path d="M8 105 36 105 54 49 83 78 111 49 132 64 151 42 134 26 111 45 82 16 50 47 38 20Z" fill="url(#maroon)"/>
-    <path d="M54 105 83 76 103 95 128 69 148 49 163 12 180 0 173 32 153 72 129 98 103 121 83 101 66 121Z" fill="url(#gold)"/>
-    <path d="M151 28 180 0 176 38Z" fill="#741728"/>
-  </g>
-  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="76" letter-spacing="1">
-    <text x="215" y="91" fill="#4b101b">MOB</text><text x="383" y="91" fill="#c39238">13</text><text x="477" y="91" fill="#4b101b">R</text>
-  </g>
-  <path d="M218 111H565" stroke="#c39238" stroke-width="2" opacity=".8"/>
-  <text x="220" y="137" fill="#4b101b" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="8">DIGITAL MEDIA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 156" role="img" aria-labelledby="title desc">
+<title id="title">Mob13r Digital Media</title>
+<desc id="desc">Modern midnight navy and electric teal Mob13r logo with an upward growth arrow.</desc>
+<defs>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263c70"/><stop offset="1" stop-color="#101a35"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8af0df"/><stop offset="1" stop-color="#24bdae"/></linearGradient>
+</defs>
+<g transform="translate(8 12)">
+ <path d="M8 105 28 105 46 48 76 77 106 47 128 64 149 40 136 27 106 47 76 17 43 49 30 20Z" fill="url(#navy)"/>
+ <path d="M52 105 79 77 101 96 127 69 149 48 166 12 184 0 176 35 154 75 128 101 101 122 79 102 65 121Z" fill="url(#teal)"/>
+ <path d="M166 28 184 0 180 39Z" fill="#24bdae"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="75" letter-spacing="1">
+ <text x="218" y="91" fill="#14213f">MOB</text><text x="390" y="91" fill="#20bba9">13</text><text x="486" y="91" fill="#14213f">R</text>
+</g>
+<path d="M220 111H574" stroke="#36d6c4" stroke-width="2.5" opacity=".95"/>
+<text x="221" y="139" fill="#344563" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="8">DIGITAL MEDIA</text>
 </svg>
